@@ -1,0 +1,130 @@
+DERS1 matematiksel işlemler
+
+topla = topla
+çarp = çarp
+böl= böl
+çıkart = çıkart
++ - * / 
+
+print() = parantez içinin sonucunu yazdır
+
+cls terminali temizler
+------------------------------------------------------------------------------------
+DERS2 String Veri Tipi Sözel İfadeler
+
+str = string harfler metinler
+
+değişken çift tırnak solüsttteki é harfi 
+değişken tek tırnak Shift +2 
+
+pythonda kaçış sembolleri o ifadeyi nereye koyarsan ondan sonrakileri yok sayar
+AltGr+? = \ ( Kaçış1)
+
+str leri print ile yazdırırken normal 
+
+print(batman+batman) yazarsan bitişik ++++ biribirleriyle toplar
+print(batman,batman) yazarsan bir boşluklu yazılır ,,,,
+print(takım*5) 5 defa takımın içindeki şeyi yazdır 5 tane takımı yanyana getir
+------------------------------------------------------------------------------
+DERS3 7. String ve İnt İşlemler Metinsel ve Sayısal işlemler birlikte
+
+print(type(isim)) isim yazan kodun veri tipi ne
+
+float küsüratlı sayı = float(4000) 4000.0
+------------------------------------------------------------------------------
+DERS 4 8. Karakter Dizileri Print() Fonksiyonu Format() ve F Mantığı
+
+metnin içindeki harfleri küçüğe çevirme
+
+büyükharfler = "BATMAN PETROL".lower() harfleri ufak yapar batman petrol
+küçükharfler = "batman petrol".upper() hartfleri büyük yapar BATMAN PETROL 
+sadecebaşharf =" batman petrol.capitalize() sadece başharf büyük yazar Batman petrol
+tamtersi = "galatasaray sk".swapcase() ufaksa büyük büyükse ufak yapar hepsiini GALATASARAY SK
+ sil = "+++emir++".strip("+") + ları siler 
+
+print("emir","kaplan",sep=":") tırnak içine yazılan ifadeyi virgül yerine koyar ortaya yani
+
+print("Batmani Diyorki", end=":") end sona tırnak içindeki şeyi yazar örnek iki nokta
+
+Format Fonksiyonu 
+
+\n bi alt satıra geçer
+
+print("Kişinin Adı:{}\nKişinin Soyadı:{}\nKişinin Yaşı:{}".format(adı,soyadı,yaşı))
+
+ .format 
+ parantezlere görülmez numaralar verilir parantezde virgül 1 e 1. 2e 2. yazılır
+
+print(f)
+
+print(f"Kişinin Adı:{adı}\nKişinin Soyadı:{soyadı}\nKişinin Yaşı{yaşı}")
+
+#print f olunca ilk str yani parantez içine ne yazarsak onu yazdırır istediğin istediğin yere yazılır
+-----------------------------------------------------------------------------------------------
+DERS 5 9. İnput() Kullanıcıdan Veri Alma 
+
+input kullanıcıdan istiyoruz yazmasını
+
+kullanıcı_adı = input("Lütfen Adınızı Yazınız :")
+kullanıcı_ps = int(input("Lütfen Şifrenizi Giriniz :"))
+
+input ile aldık veriyi int koyduk şifre çünkü sayı istiyoruz  
+---------------------------------------------------------------------------------------------------
+DERS 6 10. Alıştırma - Ortalama Hesaplama
+
+vize_puanı = int(input("Lütfen Vize Notunuzu Giriniz : "))
+final_puanı = int(input("Lütfen Final Notunuzu Giriniz : "))
+
+ortalama_hesapla = (final_puanı+vize_puanı)/2
+
+print("*"*30)
+print(f"Vize Puanınız : {vize_puanı}\nFinal Puanınız : {final_puanı}\nOrtalaman : {int(ortalama_hesapla)}")
+print("*"*30)
+
+basit vize final hesaplama kodu 
+---------------------------------------------------------------------------------------------------
+DERS 7 11. Listeler []
+
+listeler içine karenin içine istediğin kadar veri ekleyebilirsin
+
+sıralanır bu veriler index sıralama 0,1,2,3 index diye gider kaçıncı index ise bir eksiğidir.
+
+len = lengt uzunluk
+
+print(listeler[0]) 0.İndexi yazdır
+
+.append() eklemeyi ifade eder
+---------------------------------------------------------------------------------------------------
+DERS 8 12. Demetler
+
+Listeler Güncellenir Demetler Güncellenemez
+
+
+
+
+
+
+
+
+
+  
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+
